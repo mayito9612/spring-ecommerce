@@ -8,9 +8,9 @@ import java.util.Optional;
 
 public interface ProductoService {
     //Se crea los servicios de producto de tipo interface para el CRUD
-    public Producto save(Producto producto);
-    public Optional<Producto> get(Integer id);
-    public void update(Producto producto);
-    public void delete(Integer id);
-    public List<Producto> findAll();
+    Producto save(Producto producto);
+    Optional<Producto> get(Integer id);
+    void update(Producto producto);
+    void delete(Integer id);
+    List<Producto> findAll();
 }
