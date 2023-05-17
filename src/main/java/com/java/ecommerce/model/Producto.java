@@ -1,5 +1,7 @@
 package com.java.ecommerce.model;
 
+import com.fasterxml.jackson.annotation.JsonAnyGetter;
+
 import javax.persistence.*;
 
 @Entity
